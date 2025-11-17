@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import Link from "next/link"
-import { FileText, Video, Calculator, ClipboardCheck, BookOpen, Stethoscope } from "lucide-react"
+import { Smartphone, Zap, Target, BookOpen, FileText, Mic, Activity, ClipboardCheck, Pill } from "lucide-react"
 
 export default function SuitePage() {
   return (
@@ -12,108 +12,144 @@ export default function SuitePage() {
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                ProMedixEMS Suite
+                The Complete ProMedixEMS<sup>TM</sup> Suite
               </h1>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                A comprehensive collection of tools designed for EMS students and professionals. 
-                Everything you need in one place.
+                From EMT-B to Paramedic — comprehensive training tools for every level of EMS education
               </p>
             </div>
             <div className="space-x-4">
               <Button asChild size="lg">
-                <Link href="/contact">Get Started</Link>
+                <Link href="/pricing">View Pricing</Link>
               </Button>
               <Button asChild variant="outline" size="lg">
-                <Link href="/pricing">View Pricing</Link>
+                <Link href="/contact">Contact Us</Link>
               </Button>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Suite Features */}
+      {/* Complete Suite - All 10 Apps */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-background">
         <div className="container px-4 md:px-6 mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              Complete EMS Education Tools
+              All ProMedixEMS<sup>TM</sup> Platform Apps
             </h2>
             <p className="mt-4 text-muted-foreground md:text-xl">
-              Access all the resources you need for successful EMS training
+              Comprehensive education and training tools for every EMS provider
             </p>
           </div>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            <Card>
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            {/* Core EMT */}
+            <Card className="glass-card hover:shadow-xl transition-all duration-300 hover:scale-105 border-primary/20">
+              <CardHeader>
+                <Smartphone className="h-10 w-10 mb-2 text-primary" />
+                <CardTitle>Core EMT</CardTitle>
+                <CardDescription>
+                  Essential training for the EMT-B student
+                </CardDescription>
+              </CardHeader>
+            </Card>
+
+            {/* Advance AEMT */}
+            <Card className="glass-card hover:shadow-xl transition-all duration-300 hover:scale-105 border-secondary/20">
+              <CardHeader>
+                <Zap className="h-10 w-10 mb-2 text-secondary" />
+                <CardTitle>Advance AEMT</CardTitle>
+                <CardDescription>
+                  Next-level skills for the advancing provider
+                </CardDescription>
+              </CardHeader>
+            </Card>
+
+            {/* Paramedic Elite */}
+            <Card className="glass-card hover:shadow-xl transition-all duration-300 hover:scale-105 border-primary/20">
+              <CardHeader>
+                <Target className="h-10 w-10 mb-2 text-primary" />
+                <CardTitle>Paramedic Elite</CardTitle>
+                <CardDescription>
+                  Advanced neuro, cardiac, trauma, and critical care mastery
+                </CardDescription>
+              </CardHeader>
+            </Card>
+
+            {/* FlashLearn */}
+            <Card className="glass-card hover:shadow-xl transition-all duration-300 hover:scale-105 border-accent/20">
+              <CardHeader>
+                <BookOpen className="h-10 w-10 mb-2 text-accent" />
+                <CardTitle>FlashLearn</CardTitle>
+                <CardDescription>
+                  Fast, focused, spaced-repetition EMS study
+                </CardDescription>
+              </CardHeader>
+            </Card>
+
+            {/* PCR Lab */}
+            <Card className="glass-card hover:shadow-xl transition-all duration-300 hover:scale-105 border-primary/20">
               <CardHeader>
                 <FileText className="h-10 w-10 mb-2 text-primary" />
-                <CardTitle>Study Materials</CardTitle>
-              </CardHeader>
-              <CardContent>
+                <CardTitle>PCR Lab</CardTitle>
                 <CardDescription>
-                  Comprehensive study guides, flashcards, and practice questions aligned with 
-                  the National Registry standards.
+                  Realistic case-based documentation training
                 </CardDescription>
-              </CardContent>
+              </CardHeader>
             </Card>
-            <Card>
+
+            {/* VoiceNotes */}
+            <Card className="glass-card hover:shadow-xl transition-all duration-300 hover:scale-105 border-secondary/20">
               <CardHeader>
-                <Video className="h-10 w-10 mb-2 text-primary" />
-                <CardTitle>Video Tutorials</CardTitle>
-              </CardHeader>
-              <CardContent>
+                <Mic className="h-10 w-10 mb-2 text-secondary" />
+                <CardTitle>VoiceNotes</CardTitle>
                 <CardDescription>
-                  Step-by-step video demonstrations of essential skills and procedures for 
-                  EMT-Basic certification.
+                  Lecture recording + instant transcription built for EMS
                 </CardDescription>
-              </CardContent>
+              </CardHeader>
             </Card>
-            <Card>
+
+            {/* RhythmLab */}
+            <Card className="glass-card hover:shadow-xl transition-all duration-300 hover:scale-105 border-primary/20">
               <CardHeader>
-                <Calculator className="h-10 w-10 mb-2 text-primary" />
-                <CardTitle>Clinical Calculators</CardTitle>
-              </CardHeader>
-              <CardContent>
+                <Activity className="h-10 w-10 mb-2 text-primary" />
+                <CardTitle>RhythmLab</CardTitle>
                 <CardDescription>
-                  Medical calculators for vital signs, drug dosages, and other critical 
-                  patient care calculations.
+                  Master ECG interpretation, one rhythm at a time
                 </CardDescription>
-              </CardContent>
+              </CardHeader>
             </Card>
-            <Card>
+
+            {/* ScenarioDeck */}
+            <Card className="glass-card hover:shadow-xl transition-all duration-300 hover:scale-105 border-accent/20">
+              <CardHeader>
+                <Target className="h-10 w-10 mb-2 text-accent" />
+                <CardTitle>ScenarioDeck</CardTitle>
+                <CardDescription>
+                  High-yield medical and trauma simulations on demand
+                </CardDescription>
+              </CardHeader>
+            </Card>
+
+            {/* SkillCheck */}
+            <Card className="glass-card hover:shadow-xl transition-all duration-300 hover:scale-105 border-primary/20">
               <CardHeader>
                 <ClipboardCheck className="h-10 w-10 mb-2 text-primary" />
-                <CardTitle>Practice Exams</CardTitle>
-              </CardHeader>
-              <CardContent>
+                <CardTitle>SkillCheck</CardTitle>
                 <CardDescription>
-                  Full-length practice exams that simulate the National Registry test 
-                  environment and difficulty.
+                  Track and reinforce essential EMT/AEMT/Medic skills
                 </CardDescription>
-              </CardContent>
+              </CardHeader>
             </Card>
-            <Card>
+
+            {/* MedicationsX */}
+            <Card className="glass-card hover:shadow-xl transition-all duration-300 hover:scale-105 border-secondary/20">
               <CardHeader>
-                <BookOpen className="h-10 w-10 mb-2 text-primary" />
-                <CardTitle>Protocol Library</CardTitle>
-              </CardHeader>
-              <CardContent>
+                <Pill className="h-10 w-10 mb-2 text-secondary" />
+                <CardTitle>MedicationsX</CardTitle>
                 <CardDescription>
-                  Quick reference to common EMS protocols and treatment algorithms for 
-                  emergency situations.
+                  Essential EMS pharmacology, simplified
                 </CardDescription>
-              </CardContent>
-            </Card>
-            <Card>
-              <CardHeader>
-                <Stethoscope className="h-10 w-10 mb-2 text-primary" />
-                <CardTitle>Skills Tracker</CardTitle>
               </CardHeader>
-              <CardContent>
-                <CardDescription>
-                  Track your progress in mastering essential EMT skills and competencies 
-                  throughout your training.
-                </CardDescription>
-              </CardContent>
             </Card>
           </div>
         </div>
