@@ -5,8 +5,8 @@ import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
-  title: "ProMedixEMS - Empowering EMS Education",
-  description: "Innovative digital solutions for EMS education and training programs",
+  title: "ProMedixEMS™ - Empowering EMS Education",
+  description: "Innovative digital solutions for EMS education and training programs by ProMedixEMS™.",
 };
 
 export default function RootLayout({

@@ -28,7 +28,7 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
-            <span className="text-2xl font-bold text-foreground">ProMedixEMS</span>
+            <span className="text-2xl font-bold text-foreground">ProMedixEMS<sup>TM</sup></span>
             <p className="text-sm leading-6 text-muted-foreground">
               Empowering EMS education with innovative digital solutions.
             </p>
@@ -78,7 +78,8 @@ export function Footer() {
         </div>
         <div className="mt-16 border-t border-border pt-8 sm:mt-20 lg:mt-24">
           <p className="text-xs leading-5 text-muted-foreground">
-            &copy; {new Date().getFullYear()} ProMedixEMS. All rights reserved.
+            &copy; {new Date().getFullYear()} ProMedixEMS<sup>TM</sup>. All rights reserved.<br />
+            A <a href="https://webconnect360.com" className="underline hover:text-primary" target="_blank" rel="noopener noreferrer">webconnect360</a> product: designed, built, and supported for EMS excellence.
           </p>
         </div>
       </div>

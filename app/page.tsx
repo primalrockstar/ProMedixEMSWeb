@@ -17,7 +17,7 @@ export default function Home() {
               </h1>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
                 Innovative digital solutions for EMS training programs and EMT-B students. 
-                Transform your learning experience with ProMedixEMS.
+                Transform your learning experience with ProMedixEMS<sup>TM</sup>.
               </p>
             </div>
             <div className="space-x-4">
@@ -37,7 +37,7 @@ export default function Home() {
         <div className="container px-4 md:px-6 mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              Why Choose ProMedixEMS
+              Why Choose ProMedixEMS<sup>TM</sup>
             </h2>
             <p className="mt-4 text-muted-foreground md:text-xl">
               Comprehensive tools designed for modern EMS education
@@ -94,7 +94,7 @@ export default function Home() {
                 Ready to Transform Your EMS Education?
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl">
-                Join thousands of students and programs using ProMedixEMS
+                Join thousands of students and programs using ProMedixEMS<sup>TM</sup>
               </p>
             </div>
             <div className="space-x-4">

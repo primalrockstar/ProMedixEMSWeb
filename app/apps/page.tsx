@@ -10,7 +10,7 @@ const apps = JSON.parse(fs.readFileSync(appsDataPath, "utf-8"));
 export default function AppsPage() {
   return (
     <div className="container mx-auto py-12">
-      <h1 className="text-4xl font-bold mb-8 text-center">ProMedixEMS Apps</h1>
+  <h1 className="text-4xl font-bold mb-8 text-center">ProMedixEMS<sup>TM</sup> Apps</h1>
       <div className="grid gap-8 md:grid-cols-3">
         {apps.map((app: any) => (
           <Card key={app.id} className="glass-card p-6 flex flex-col items-center">

@@ -2,7 +2,7 @@ export default function InstitutionsPage() {
   return (
     <div className="container mx-auto py-12">
       <h1 className="text-4xl font-bold mb-4">For Institutions & Programs</h1>
-      <p className="mb-6 text-muted-foreground max-w-2xl">ProMedixEMS supports EMS programs with analytics, content libraries, and compliance. FERPA/HIPAA compliant. Request a program demo below.</p>
+  <p className="mb-6 text-muted-foreground max-w-2xl">ProMedixEMS<sup>TM</sup> supports EMS programs with analytics, content libraries, and compliance. FERPA/HIPAA compliant. Request a program demo below.</p>
       <div className="grid gap-6 md:grid-cols-2 mb-8">
         <div>
           <h2 className="text-2xl font-semibold mb-2">Benefits</h2>
