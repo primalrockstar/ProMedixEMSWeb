@@ -9,7 +9,8 @@
       "All study tools included",
       "Regular updates"
     ],
-    "checkoutUrlPlaceholder": "https://checkout.example.com/emtb-monthly"
+  "stripePriceId": "price_emtb_monthly",
+  "checkoutUrlPlaceholder": ""
   },
   {
     "id": "emtb-6mo",
@@ -21,7 +22,8 @@
       "All study tools included",
       "Regular updates"
     ],
-    "checkoutUrlPlaceholder": "https://checkout.example.com/emtb-6mo"
+  "stripePriceId": "price_emtb_6mo",
+  "checkoutUrlPlaceholder": ""
   },
   {
     "id": "emtb-lifetime",
@@ -33,7 +35,8 @@
       "All study tools included",
       "All future updates"
     ],
-    "checkoutUrlPlaceholder": "https://checkout.example.com/emtb-lifetime"
+  "stripePriceId": "price_emtb_lifetime",
+  "checkoutUrlPlaceholder": ""
   },
   {
     "id": "aemt",
@@ -44,7 +47,8 @@
       "Advanced content",
       "Practice tools"
     ],
-    "checkoutUrlPlaceholder": "#"
+  "stripePriceId": "",
+  "checkoutUrlPlaceholder": "#"
   },
   {
     "id": "paramedic",
@@ -55,7 +59,8 @@
       "Critical care scenarios",
       "Advanced skills"
     ],
-    "checkoutUrlPlaceholder": "#"
+  "stripePriceId": "",
+  "checkoutUrlPlaceholder": "#"
   },
   {
     "id": "institution",
@@ -67,6 +72,7 @@
       "Bulk licensing",
       "Instructor dashboard"
     ],
-    "checkoutUrlPlaceholder": "/institutions"
+  "stripePriceId": "",
+  "checkoutUrlPlaceholder": "/institutions"
   }
 ]
