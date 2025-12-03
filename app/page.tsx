@@ -551,28 +551,6 @@ export default function Home() {
           </CardContent>
         </Card>
       </section>
-
-      <section className="container mx-auto px-4 md:px-6">
-        <Card className="border-white/10">
-          <CardContent className="flex flex-col gap-6 p-8 text-center">
-            <p className="text-xs uppercase tracking-[0.5em] text-muted-foreground">Take action</p>
-            <h3 className="text-3xl font-bold sm:text-4xl">
-              Ready to put the neon glass platform in front of your cohort?
-            </h3>
-            <p className="mx-auto max-w-3xl text-muted-foreground md:text-lg">
-              Request a guided tour, secure branded onboarding with the new EMT logos, and lock in early access updates for MedicationsEMS, AEMT, and Paramedic builds.
-            </p>
-            <div className="flex flex-wrap items-center justify-center gap-4">
-              <Button asChild size="lg" className="px-10 text-base">
-                <Link href="/contact">Book a walkthrough</Link>
-              </Button>
-              <Button asChild variant="outline" size="lg" className="border-white/30 px-10 text-base">
-                <Link href="/suite">Download the suite brief</Link>
-              </Button>
-            </div>
-          </CardContent>
-        </Card>
-      </section>
       </div>
   )
 }
