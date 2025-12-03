@@ -12,7 +12,7 @@ const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-space
 export const metadata: Metadata = {
   title: "EmeritaClinical™ – Modern EMT, AEMT, and Paramedic Learning Tools",
   description:
-    "EmeritaClinical™ is a modern EMS learning platform created by EMT Shaun Williamson with study chapters, flashcards, scenarios, medication tools, rhythm training, documentation labs, and more.",
+    "EmeritaClinical™ is a modern EMS learning platform created by EMS student Shaun Williamson with study chapters, flashcards, scenarios, medication tools, rhythm training, documentation labs, and more.",
   keywords: [
     "EMT study app",
     "EMT-B training",

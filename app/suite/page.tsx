@@ -3,7 +3,7 @@ import apps from "@/data/apps.json"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { LogoWordmark } from "@/components/logo-wordmark"
-import { Apple, Check, Clock, Play, ShoppingCart } from "lucide-react"
+import { Check, Clock, ShoppingCart, Sparkles } from "lucide-react"
 
 type AppTier = "core" | "extension" | "roadmap"
 type AppStatus = "available" | "coming_soon" | "in_development"
@@ -49,7 +49,7 @@ const pricingTiers = [
     title: "Single Tool",
     price: "$29",
     subtext: "/ app",
-    description: "Choose EMT-B Core, ChapterFlashEMT, or PCR Trainer PRO.",
+  description: "Choose EMT-B Core, ChapterFlashEMR, or PCR Trainer PRO.",
     features: ["Lifetime access", "Offline ready", "Email receipt via Stripe"],
     cta: { label: "Select your app", href: "#live-apps", variant: "outline" as const },
   },
@@ -60,7 +60,7 @@ const pricingTiers = [
     original: "$49",
     price: "$36.75",
     subtext: "one-time (use code HOLIDAY25)",
-    description: "Bundle EMT-B Core + ChapterFlashEMT + PCR Trainer PRO.",
+  description: "Bundle EMT-B Core + ChapterFlashEMR + PCR Trainer PRO.",
     features: ["3 premium tools", "Promo code ready", "Instant Stripe delivery"],
     cta: { label: "Buy full bundle", href: "https://buy.stripe.com/3cI9AU6C5el619cat28k802" },
   },
@@ -82,10 +82,10 @@ export default function SuitePage() {
         <div className="container mx-auto flex flex-col items-center gap-6 px-4 text-center">
           <p className="text-xs uppercase tracking-[0.5em] text-muted-foreground">EmeritaClinical™ Suite</p>
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-            The WebConnect360 EMS ecosystem, now neon and Stripe-connected.
+            The EmeritaClinical EMS ecosystem, neon and Stripe-connected.
           </h1>
           <p className="max-w-3xl text-muted-foreground md:text-lg">
-            EMT-B Core, ChapterFlashEMT, and PCR Trainer PRO mirror the ProMedixEMS experience with $29 one-time Stripe checkouts. MedicationsEMS and the AEMT/Paramedic tracks stay on the same roadmap toward 2026 App Store and Google Play launches.
+            EMT-B Core, ChapterFlashEMR, and PCR Trainer PRO are the live lineup, each sold as a $29 Stripe download on EmeritaClinical.com. MedicationsEMS plus the AEMT and Paramedic tracks are actively in build for web delivery only—no App Store or Google Play releases.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
             <Button asChild size="lg">
@@ -97,12 +97,12 @@ export default function SuitePage() {
           </div>
           <div className="marquee-blur flex flex-wrap items-center justify-center gap-3 rounded-2xl border border-white/10 px-4 py-3 text-xs uppercase tracking-[0.4em] text-muted-foreground">
             <span className="inline-flex items-center gap-2">
-              <Apple className="h-4 w-4" /> App Store · 2026
+              <Sparkles className="h-4 w-4" /> EmeritaClinical.com · Live now
             </span>
             <span className="inline-flex items-center gap-2">
-              <Play className="h-4 w-4" /> Google Play · 2026
+              <Clock className="h-4 w-4" /> AEMT + Paramedic · In build
             </span>
-            <span className="inline-flex items-center gap-2">🔵 EmeritaClinical.com · Beta now</span>
+            <span className="inline-flex items-center gap-2">� Stripe-only access</span>
           </div>
         </div>
       </section>
@@ -110,7 +110,7 @@ export default function SuitePage() {
       <section id="live-apps" className="container mx-auto space-y-8 px-4 md:px-6">
         <div className="space-y-2 text-center">
           <p className="text-xs uppercase tracking-[0.5em] text-muted-foreground">Live + coming soon</p>
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Every EMS tool, same pricing as WebConnect360.</h2>
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Every EMS tool, same straightforward pricing.</h2>
           <p className="mx-auto max-w-3xl text-muted-foreground md:text-lg">
             These glass-card modules are the cash-flow engine: purchase-ready Stripe links for $29 apps plus transparent waitlists for what ships next.
           </p>
@@ -180,7 +180,7 @@ export default function SuitePage() {
         <section className="container mx-auto px-4 md:px-6">
           <Card className="border-white/10">
             <CardHeader>
-              <CardTitle className="text-2xl">Roadmap · 2026</CardTitle>
+              <CardTitle className="text-2xl">Roadmap · In development</CardTitle>
               <CardDescription>Same architecture, higher scope—AEMT and Paramedic follow the neon playbook.</CardDescription>
             </CardHeader>
             <CardContent className="grid gap-6 md:grid-cols-2">
@@ -210,7 +210,7 @@ export default function SuitePage() {
           <p className="text-xs uppercase tracking-[0.5em] text-muted-foreground">Pricing</p>
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Professional grade. Honest pricing.</h2>
           <p className="mx-auto max-w-2xl text-muted-foreground md:text-lg">
-            Exactly what WebConnect360 published—single apps at $29, bundle at $36.75 with HOLIDAY25, and classroom plans on request.
+            Exactly what EmeritaClinical™ publishes—single apps at $29, bundle at $36.75 with HOLIDAY25, and classroom plans on request.
           </p>
         </div>
         <div className="grid gap-6 md:grid-cols-3 items-stretch">

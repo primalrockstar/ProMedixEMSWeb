@@ -50,13 +50,13 @@ export default function AppsPage() {
           <p className="text-xs uppercase tracking-[0.5em] text-muted-foreground">Stripe-powered releases</p>
           <h1 className="mt-4 text-4xl font-bold">EmeritaClinical™ EMS Apps</h1>
           <p className="mt-4 text-muted-foreground md:text-lg">
-            The exact ProMedixEMS lineup from WebConnect360 now lives here: EMT-B Core, ChapterFlashEMT, and PCR Trainer PRO—all $29 one-time purchases.
+            The EmeritaClinical™ suite lives here: EMT-B Core, ChapterFlashEMR, and PCR Trainer PRO—all $29 one-time purchases with direct Stripe delivery.
           </p>
           <p className="text-muted-foreground">
-            Built by EMT student Shaun Williamson with neon-glass polish, each module enhances accredited programs with flashcards, documentation labs, and competency-mapped drills.
+            Built by EMS student Shaun Williamson with neon-glass polish, each module enhances accredited programs with flashcards, documentation labs, and competency-mapped drills.
           </p>
           <p className="mt-4 text-muted-foreground">
-            MedicationsEMS, AEMT, and Paramedic experiences remain in development for coordinated App Store and Google Play launches in 2026.
+            MedicationsEMS, AEMT, and Paramedic experiences are actively in development with invite-only web previews—there are no App Store or Google Play releases planned.
           </p>
           <div className="mt-4 flex flex-wrap items-center justify-center gap-3">
             <Button asChild>
@@ -128,7 +128,7 @@ export default function AppsPage() {
       {roadmapApps.length > 0 && (
         <section className="container mx-auto px-4 md:px-6">
           <div className="glass-card rounded-3xl border border-white/10 p-6">
-            <p className="text-xs uppercase tracking-[0.5em] text-muted-foreground">Roadmap · 2026</p>
+            <p className="text-xs uppercase tracking-[0.5em] text-muted-foreground">Roadmap · In development</p>
             <div className="mt-4 grid gap-6 md:grid-cols-2">
               {roadmapApps.map((app) => (
                 <div key={app.id} className="rounded-2xl border border-white/10 p-5">

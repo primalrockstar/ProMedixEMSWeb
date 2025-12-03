@@ -5,12 +5,10 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { LogoWordmark } from "@/components/logo-wordmark"
 import {
   Activity,
-  Apple,
   ArrowUpRight,
   Check,
   Clock,
   Layers,
-  Play,
   ShieldCheck,
   ShoppingCart,
   Sparkles,
@@ -93,7 +91,7 @@ const pricingTiers = [
     title: "Single Tool",
     price: "$29",
     subtext: "/ app",
-    description: "Choose EMT-B Core, ChapterFlashEMT, or PCR Trainer PRO.",
+  description: "Choose EMT-B Core, ChapterFlashEMR, or PCR Trainer PRO.",
     features: ["Lifetime access", "Offline ready", "Email receipt via Stripe"],
     cta: { label: "Select your app", href: "#ems-suite", variant: "outline" as const },
   },
@@ -104,7 +102,7 @@ const pricingTiers = [
     original: "$49",
     price: "$36.75",
     subtext: "one-time (use code HOLIDAY25)",
-    description: "Bundle EMT-B Core + ChapterFlashEMT + PCR Trainer PRO.",
+  description: "Bundle EMT-B Core + ChapterFlashEMR + PCR Trainer PRO.",
     features: ["3 premium tools", "Promo code ready", "Instant Stripe delivery"],
     cta: { label: "Buy full bundle", href: "https://buy.stripe.com/3cI9AU6C5el619cat28k802" },
   },
@@ -150,10 +148,10 @@ export default function Home() {
             </div>
             <div className="space-y-5">
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-                The WebConnect360 EMS suite, reimagined as EmeritaClinical™.
+                The EmeritaClinical™ EMS suite, openly built for educators.
               </h1>
               <p className="max-w-2xl text-lg text-muted-foreground md:text-xl">
-                EMT-B Core, ChapterFlashEMT, and PCR Trainer PRO are live with $29 Stripe checkouts. MedicationsEMS, AEMT, and Paramedic tracks follow the same roadmap releasing across web, App Store, and Google Play.
+                EMT-B Core, ChapterFlashEMR, and PCR Trainer PRO ship as $29 Stripe downloads directly on EmeritaClinical.com. MedicationsEMS plus the AEMT and Paramedic tracks are currently in build with browser-based previews only—no App Store or Google Play releases planned.
               </p>
             </div>
             <div className="flex flex-wrap gap-4">
@@ -190,13 +188,13 @@ export default function Home() {
               <CardContent className="space-y-4">
                 <div className="flex flex-wrap gap-3 text-xs font-semibold tracking-wide text-foreground">
                   <span className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-2">
-                    <Apple className="h-4 w-4" /> App Store · 2026
+                    <Sparkles className="h-4 w-4" /> EmeritaClinical.com · Live now
                   </span>
                   <span className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-2">
-                    <Play className="h-4 w-4" /> Google Play · 2026
+                    <Clock className="h-4 w-4" /> AEMT + Paramedic · In build
                   </span>
                   <span className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-2">
-                    🔵 EmeritaClinical.com · Beta now
+                    � Stripe checkout only
                   </span>
                 </div>
                 <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
@@ -238,7 +236,7 @@ export default function Home() {
             Professional-grade tools. Honest $29 pricing.
           </h2>
           <p className="mx-auto max-w-3xl text-muted-foreground md:text-lg">
-            Each EmeritaClinical™ app mirrors the WebConnect360 EMS lineup with the same curriculum, flashcards, and documentation labs—only now every purchase routes through our own Stripe links.
+            Each EmeritaClinical™ app carries the original EMS curriculum Shaun built for the community—same chapters, flashcards, and documentation labs, now delivered entirely through our own Stripe-powered platform.
           </p>
         </div>
         <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
@@ -385,10 +383,10 @@ export default function Home() {
             <div className="space-y-4">
               <p className="text-xs uppercase tracking-[0.5em] text-muted-foreground">About EmeritaClinical™</p>
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-                Modern EMS training built by EMT Shaun Williamson.
+                Modern EMS training built by EMS student Shaun Williamson.
               </h2>
               <p className="text-muted-foreground md:text-lg">
-                What began as a personal study tool during Shaun’s EMT-B training quickly evolved into a complete suite of apps designed to help EMS students and providers learn faster and perform with confidence. Our mission is simple: enhance EMS education—not replace it.
+                What began as a personal study tool during Shaun’s EMS training quickly evolved into a complete suite of apps designed to help EMS students and providers learn faster and perform with confidence. Our mission is simple: enhance EMS education—not replace it.
               </p>
               <p className="text-muted-foreground">
                 The growing EmeritaClinical™ suite includes study modules, medication companions, rhythm trainers, flashcard systems, documentation labs, and voice-note tools—all designed around real EMS workflows.
@@ -459,8 +457,8 @@ export default function Home() {
             <p className="text-xs uppercase tracking-[0.5em] text-muted-foreground">Platform lineup</p>
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">All apps live on this platform first</h2>
             <p className="max-w-2xl text-muted-foreground">
-              Whether it&apos;s the EMT core curriculum, MedicationsX reference, or RhythmLab for ECG mastery, everything is
-              orchestrated inside the neon interface before it arrives on the stores in 2026.
+              Whether it&apos;s the EMT core curriculum, MedicationsEMS reference, or RhythmLab for ECG mastery, everything is
+              orchestrated inside the neon interface and delivered directly through EmeritaClinical.com—no marketplace listings required.
             </p>
           </div>
           <Button asChild variant="outline" className="self-start border-white/30">
@@ -498,13 +496,13 @@ export default function Home() {
                 </div>
                 <div className="flex flex-wrap gap-3 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
                   <span className="inline-flex items-center gap-2 rounded-full border border-white/15 px-3 py-1">
-                    <Apple className="h-3.5 w-3.5" /> 2026
+                    <Sparkles className="h-3.5 w-3.5" /> Web-first delivery
                   </span>
                   <span className="inline-flex items-center gap-2 rounded-full border border-white/15 px-3 py-1">
-                    <Play className="h-3.5 w-3.5" /> 2026
+                    <Clock className="h-3.5 w-3.5" /> AEMT + Paramedic · In build
                   </span>
                   <span className="inline-flex items-center gap-2 rounded-full border border-white/15 px-3 py-1">
-                    🔵 Platform first
+                    � Stripe-secured access
                   </span>
                 </div>
               </CardContent>
@@ -517,45 +515,37 @@ export default function Home() {
         <Card className="border-white/10">
           <CardContent className="grid gap-8 p-8 md:grid-cols-[1.1fr_0.9fr] md:items-center">
             <div className="space-y-4">
-              <p className="text-xs uppercase tracking-[0.5em] text-muted-foreground">Availability · 2026</p>
+              <p className="text-xs uppercase tracking-[0.5em] text-muted-foreground">Availability · Web-first</p>
               <h3 className="text-3xl font-semibold">
-                Every module ships simultaneously to EmeritaClinical.com, the App Store, and Google Play.
+                Every module ships to EmeritaClinical.com—no App Store or Google Play releases.
               </h3>
               <p className="text-muted-foreground">
-                Programs can pilot the neon platform today, then flip the switch for learners once the stores approve the
-                builds. All data, cohorts, and scenarios stay synced.
+                Programs pilot, purchase, and deploy the entire suite via secure browser builds with Stripe-protected access. Cohorts stay in sync across EMT-B Core, PCR Trainer PRO, and the in-progress MedicationsEMS, AEMT, and Paramedic tracks.
               </p>
               <div className="flex flex-wrap gap-3 text-sm text-muted-foreground">
                 <span className="inline-flex items-center gap-2 rounded-full border border-white/15 px-3 py-1">
-                  <Users className="h-4 w-4 text-primary" /> Student + program roles
+                  <Users className="h-4 w-4 text-primary" /> Student + program roles included
                 </span>
                 <span className="inline-flex items-center gap-2 rounded-full border border-white/15 px-3 py-1">
-                  <Sparkles className="h-4 w-4 text-secondary" /> Neon/glass UI preserved everywhere
+                  <Sparkles className="h-4 w-4 text-secondary" /> Neon/glass UI preserved in-browser
                 </span>
               </div>
             </div>
             <div className="space-y-4 rounded-2xl border border-white/10 p-6">
-              <div className="flex items-center gap-4">
-                <div className="rounded-full bg-primary/15 p-3 text-primary">
-                  <Apple className="h-6 w-6" />
-                </div>
-                <div>
-                  <p className="text-sm uppercase tracking-wide text-muted-foreground">App Store</p>
-                  <p className="text-lg font-semibold">Q1 2026 submission window</p>
-                </div>
+              <div>
+                <p className="text-sm uppercase tracking-wide text-muted-foreground">MedicationsEMS</p>
+                <p className="text-lg font-semibold">In development · pharmacology pilots open</p>
+                <p className="text-sm text-muted-foreground">Provider-ready dosing references and interaction checks shipping as a web companion.</p>
               </div>
-              <div className="flex items-center gap-4">
-                <div className="rounded-full bg-secondary/15 p-3 text-secondary">
-                  <Play className="h-6 w-6" />
-                </div>
-                <div>
-                  <p className="text-sm uppercase tracking-wide text-muted-foreground">Google Play</p>
-                  <p className="text-lg font-semibold">Q1 2026 beta tracks</p>
-                </div>
+              <div>
+                <p className="text-sm uppercase tracking-wide text-muted-foreground">AEMT</p>
+                <p className="text-lg font-semibold">In build · invite-only browser previews</p>
+                <p className="text-sm text-muted-foreground">Advanced skills, IV/IO refreshers, and analytics layered on top of the core suite.</p>
               </div>
-              <div className="rounded-2xl bg-white/5 p-4 text-sm text-muted-foreground">
-                EmeritaClinical.com hosts the EMT-B Core experience today so programs can run guided demos and faculty
-                reviews while the remaining suite tracks finalize for the coordinated 2026 App Store and Google Play launches.
+              <div>
+                <p className="text-sm uppercase tracking-wide text-muted-foreground">Paramedic</p>
+                <p className="text-lg font-semibold">Scoping · ALS labs + telemetry modules</p>
+                <p className="text-sm text-muted-foreground">Capstone-ready drills authored for programs that want full-stack ALS prep without an app store dependency.</p>
               </div>
             </div>
           </CardContent>
@@ -570,8 +560,7 @@ export default function Home() {
               Ready to put the neon glass platform in front of your cohort?
             </h3>
             <p className="mx-auto max-w-3xl text-muted-foreground md:text-lg">
-              Request a guided tour, secure branded onboarding with the new EMT logos, and lock in App Store + Google
-              Play launch notifications for 2026.
+              Request a guided tour, secure branded onboarding with the new EMT logos, and lock in early access updates for MedicationsEMS, AEMT, and Paramedic builds.
             </p>
             <div className="flex flex-wrap items-center justify-center gap-4">
               <Button asChild size="lg" className="px-10 text-base">

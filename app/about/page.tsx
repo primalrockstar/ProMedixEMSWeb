@@ -78,7 +78,7 @@ const suite = [
 
 const foundersLetter = `My name is Shaun Williamson, and before I built EmeritaClinical™, I built the very first version of the EMT-B app simply to survive school.
 
-Like every new EMT student, I was overwhelmed—45+ chapters of material, new terminology, new skills, and the constant pressure to perform. I built a small internal tool to help myself keep track of notes, flashcards, and drills. I never expected it to turn into anything bigger.
+Like every new EMS student, I was overwhelmed—45+ chapters of material, new terminology, new skills, and the constant pressure to perform. I built a small internal tool to help myself keep track of notes, flashcards, and drills. I never expected it to turn into anything bigger.
 
 But the more I worked on it, the clearer it became: traditional study tools weren’t keeping up with the needs of today’s EMS students.
 
@@ -102,7 +102,7 @@ Founder, EmeritaClinical™`
 export const metadata = {
   title: "About EmeritaClinical™",
   description:
-    "Learn how EMT Shaun Williamson turned a personal study tool into the EmeritaClinical™ suite for EMT, AEMT, and Paramedic learners.",
+    "Learn how EMS student Shaun Williamson turned a personal study tool into the EmeritaClinical™ suite for EMT, AEMT, and Paramedic learners.",
 }
 
 export default function AboutPage() {
@@ -116,7 +116,7 @@ export default function AboutPage() {
               Modern tools for tomorrow’s EMS providers.
             </h1>
             <p className="max-w-2xl text-lg text-muted-foreground">
-              Built by Emergency Medical Technician Shaun Williamson to enhance—not replace—traditional EMS education.
+              Built by EMS student Shaun Williamson to enhance—not replace—traditional EMS education.
               EmeritaClinical™ started as a personal study tool and has grown into a neon glass platform for EMT, AEMT, and Paramedic learners.
             </p>
             <div className="flex flex-wrap gap-4">
@@ -132,7 +132,7 @@ export default function AboutPage() {
             <CardHeader>
               <CardTitle className="text-2xl">About EmeritaClinical™</CardTitle>
               <CardDescription>
-                EmeritaClinical™ was founded by EMT Shaun Williamson, who originally built the platform to survive EMT-B school.
+                EmeritaClinical™ was founded by EMS student Shaun Williamson, who originally built the platform to survive EMT-B school.
                 The mission is simple: give every EMS student and provider the tools to learn faster, test better, and perform with confidence.
               </CardDescription>
             </CardHeader>
@@ -262,7 +262,7 @@ export default function AboutPage() {
           </CardHeader>
           <CardContent className="space-y-4 text-sm text-muted-foreground">
             <p>
-              Shaun is an Emergency Medical Technician and software designer who created the first version of EmeritaClinical™ to manage the intense demands of EMT school.
+              Shaun is an EMS student and software designer who created the first version of EmeritaClinical™ to manage the intense demands of EMT school.
             </p>
             <p>
               With a background in web and software development, he saw an opportunity to modernize EMS learning tools and make them more accessible for students and providers everywhere.
@@ -294,7 +294,7 @@ export default function AboutPage() {
           </CardHeader>
           <CardContent className="space-y-4 text-sm text-muted-foreground">
             <p>
-              EmeritaClinical™ is an independently developed EMS training and study platform founded by Emergency Medical Technician Shaun Williamson. All educational content, summaries, explanations, scenarios, flashcards, and study materials within EmeritaClinical™ are original works, AI-assisted reinterpretations, or fair-use educational derivatives created from publicly available information.
+              EmeritaClinical™ is an independently developed EMS training and study platform founded by EMS student Shaun Williamson. All educational content, summaries, explanations, scenarios, flashcards, and study materials within EmeritaClinical™ are original works, AI-assisted reinterpretations, or fair-use educational derivatives created from publicly available information.
             </p>
             <p>
               EmeritaClinical™ is not affiliated with, endorsed by, or officially connected to the following organizations:

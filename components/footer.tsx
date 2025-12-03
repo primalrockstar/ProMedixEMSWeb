@@ -36,7 +36,7 @@ export function Footer() {
             <div className="rounded-2xl border border-white/10 p-4 text-sm text-muted-foreground shadow-inner">
               <p className="font-semibold text-foreground">About EmeritaClinical™</p>
               <p className="mt-2">
-                Founded by Emergency Medical Technician and software designer Shaun Williamson, EmeritaClinical™ is a modern suite of EMS learning tools designed to enhance traditional EMT, AEMT, and Paramedic education.
+                Founded by EMS student and software designer Shaun Williamson, EmeritaClinical™ is a modern suite of EMS learning tools designed to enhance traditional EMT, AEMT, and Paramedic education.
               </p>
               <p className="mt-2">
                 With adaptive study modules, medication guides, rhythm labs, documentation practice, and more, the platform helps students learn faster and providers stay sharp.
