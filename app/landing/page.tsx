@@ -5,8 +5,8 @@ import { Check, Sparkles, Zap, Award, Clock, TrendingUp, Shield, Users } from "l
 import { LandingPageClient, TrackableButton } from "./landing-client"
 
 export const metadata = {
-  title: "Pass Your NREMT First Try | EmeritaClinical - $36.75",
-  description: "Built by an EMS student for EMS students. EMT-B Core, ChapterFlashEMT, and PCR Trainer PRO—instant access, one-time payment.",
+  title: "EMS Study Bundle - 3 Apps for $36.75 | EmeritaClinical",
+  description: "EMT-B Core (45 chapters, 675+ flashcards), ChapterFlashEMT (spaced repetition), and PCR Trainer Pro. Built by an EMS student to help you retain more.",
 }
 
 export default function LandingPage() {
@@ -28,21 +28,21 @@ export default function LandingPage() {
             {/* Trust Badge */}
             <div className="group inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-5 py-2.5 backdrop-blur-md transition-all hover:bg-white/15 hover:border-white/30">
               <Award className="h-4 w-4 text-yellow-300" />
-              <span className="text-sm font-medium text-white">Built by an EMS student, trusted by future paramedics</span>
+              <span className="text-sm font-medium text-white">Built by EMS students, trusted by programs nationwide</span>
             </div>
 
             {/* Massive Headline */}
             <div className="space-y-6">
               <h1 className="text-5xl font-black tracking-tight text-white sm:text-6xl md:text-7xl lg:text-8xl">
-                Pass Your NREMT.
+                Study Smarter.
                 <br />
                 <span className="bg-gradient-to-r from-yellow-300 via-yellow-200 to-yellow-100 bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(253,224,71,0.5)]">
-                  First Try. Guaranteed.
+                  Retain More. Think Critically.
                 </span>
               </h1>
               <p className="mx-auto max-w-2xl text-xl font-medium text-blue-100 md:text-2xl">
-                Three professional study tools. One price. <br className="hidden sm:block" />
-                <span className="text-white">Built by an EMS student who actually gets it.</span>
+                EMT-B Core with 45 chapters, ChapterFlashEMT spaced repetition, and PCR Trainer Pro. <br className="hidden sm:block" />
+                <span className="text-white">Everything you need to reinforce classroom learning and build real skills.</span>
               </p>
             </div>
 
@@ -87,12 +87,12 @@ export default function LandingPage() {
       <section className="px-4 py-20 md:py-28">
         <div className="container mx-auto max-w-6xl">
           <div className="mb-16 text-center">
-            <p className="mb-3 text-sm font-bold uppercase tracking-wider text-blue-400">The Complete Package</p>
+            <p className="mb-3 text-sm font-bold uppercase tracking-wider text-blue-400">3 Apps. 1 Bundle.</p>
             <h2 className="mb-4 text-4xl font-black text-white sm:text-5xl md:text-6xl">
-              Everything you need to pass NREMT
+              Everything you need to study smarter
             </h2>
             <p className="mx-auto max-w-2xl text-xl text-slate-400">
-              Three powerful apps, one simple price. No tricks, no monthly fees.
+              Designed to boost retention, critical thinking, and essential documentation skills.
             </p>
           </div>
 
@@ -105,21 +105,21 @@ export default function LandingPage() {
                   <TrendingUp className="h-6 w-6" />
                 </div>
                 <CardTitle className="text-2xl font-bold text-white">EMT-B Core</CardTitle>
-                <p className="text-slate-400">The flagship curriculum with 41 chapters, quizzes, and NREMT simulations.</p>
+                <p className="text-slate-400">Complete textbook companion with 45 chapters and 675+ built-in flashcards.</p>
               </CardHeader>
               <CardContent className="relative">
                 <ul className="space-y-3 text-sm text-slate-300">
                   <li className="flex items-start gap-3">
                     <Check className="mt-0.5 h-5 w-5 flex-shrink-0 text-blue-400" />
-                    <span>41 instructor-aligned chapters</span>
+                    <span>45 chapters across 14 modules</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="mt-0.5 h-5 w-5 flex-shrink-0 text-blue-400" />
-                    <span>Scenario + quiz mode</span>
+                    <span>675+ flashcards (15 per chapter)</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="mt-0.5 h-5 w-5 flex-shrink-0 text-blue-400" />
-                    <span>NREMT-style simulations</span>
+                    <span>Study notes + practice questions</span>
                   </li>
                 </ul>
               </CardContent>
@@ -133,21 +133,21 @@ export default function LandingPage() {
                   <Sparkles className="h-6 w-6" />
                 </div>
                 <CardTitle className="text-2xl font-bold text-white">ChapterFlashEMT</CardTitle>
-                <p className="text-slate-400">Intelligent spaced-repetition flashcards synced for EMT-B.</p>
+                <p className="text-slate-400">Spaced-repetition system with 700+ prompts across all 45 chapters.</p>
               </CardHeader>
               <CardContent className="relative">
                 <ul className="space-y-3 text-sm text-slate-300">
                   <li className="flex items-start gap-3">
                     <Check className="mt-0.5 h-5 w-5 flex-shrink-0 text-purple-400" />
-                    <span>Spaced repetition cycles</span>
+                    <span>AI-powered spaced repetition</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="mt-0.5 h-5 w-5 flex-shrink-0 text-purple-400" />
-                    <span>700+ EMT-B prompts</span>
+                    <span>700+ flashcards (all 45 chapters)</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="mt-0.5 h-5 w-5 flex-shrink-0 text-purple-400" />
-                    <span>Syncs with Core EMT</span>
+                    <span>4 study modes + progress tracking</span>
                   </li>
                 </ul>
               </CardContent>
@@ -160,22 +160,22 @@ export default function LandingPage() {
                 <div className="mb-3 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-emerald-500/10 text-emerald-400">
                   <Users className="h-6 w-6" />
                 </div>
-                <CardTitle className="text-2xl font-bold text-white">PCR Trainer PRO</CardTitle>
-                <p className="text-slate-400">Advanced documentation engine. Master the Patient Care Report.</p>
+                <CardTitle className="text-2xl font-bold text-white">PCR Trainer Pro</CardTitle>
+                <p className="text-slate-400">Practice Patient Care Reports with 50+ realistic scenarios and AI scoring.</p>
               </CardHeader>
               <CardContent className="relative">
                 <ul className="space-y-3 text-sm text-slate-300">
                   <li className="flex items-start gap-3">
                     <Check className="mt-0.5 h-5 w-5 flex-shrink-0 text-emerald-400" />
-                    <span>Realistic ePCR workflows</span>
+                    <span>50+ realistic scenarios</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="mt-0.5 h-5 w-5 flex-shrink-0 text-emerald-400" />
-                    <span>Automated QA scoring</span>
+                    <span>SOAP/CHART formats + AI scoring</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="mt-0.5 h-5 w-5 flex-shrink-0 text-emerald-400" />
-                    <span>Scenario-linked prompts</span>
+                    <span>Hand-off trainer with voice recording</span>
                   </li>
                 </ul>
               </CardContent>
@@ -192,11 +192,11 @@ export default function LandingPage() {
 
         <div className="container relative z-10 mx-auto max-w-4xl text-center">
           <div className="mb-12">
-            <p className="mb-3 text-sm font-bold uppercase tracking-wider text-red-400">Limited Time Offer</p>
+            <p className="mb-3 text-sm font-bold uppercase tracking-wider text-red-400">Holiday Special</p>
             <h2 className="mb-4 text-4xl font-black text-white sm:text-5xl md:text-6xl">
-              Get the bundle and save
+              3 apps. $36.75 total.
             </h2>
-            <p className="text-xl text-slate-400">Why buy one when you can own all three?</p>
+            <p className="text-xl text-slate-400">Use code HOLIDAY25 at checkout</p>
           </div>
 
           <Card className="relative overflow-hidden border-red-500/40 bg-gradient-to-b from-slate-900 to-slate-950 shadow-[0_0_60px_rgba(239,68,68,0.4)]">
@@ -257,10 +257,10 @@ export default function LandingPage() {
       <section className="px-4 py-20 md:py-28">
         <div className="container mx-auto max-w-3xl text-center">
           <h2 className="mb-6 text-4xl font-black text-white sm:text-5xl md:text-6xl">
-            Ready to pass your NREMT?
+            Study smarter. Build skills. Pass your NREMT.
           </h2>
           <p className="mb-10 text-xl text-slate-400 md:text-2xl">
-            Join EMS students using EmeritaClinical to study smarter and pass faster.
+            Everything you need in one bundle for $36.75
           </p>
           <a href="https://buy.stripe.com/5kA6s03xJ0Mv0Ve4gj" target="_blank" rel="noopener noreferrer">
             <Button size="lg" className="bg-blue-600 px-12 py-7 text-xl font-bold text-white shadow-2xl transition-all hover:scale-105 hover:bg-blue-500">
